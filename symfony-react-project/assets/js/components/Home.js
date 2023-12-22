@@ -1,5 +1,5 @@
-import { Component } from "react";
-import { BrowserRouter as Router, Link, Routes, Route, Navigate } from "react-router-dom";
+import React, { Component } from "react";
+import { Link, Routes, Route, Navigate } from "react-router-dom";
 import Users from "./Users";
 import Posts from "./Posts";
 
@@ -20,13 +20,11 @@ class Home extends Component {
                         </ul>
                     </div>
                 </nav>
-                <Router>
-                    <Routes>
-                        <Route path="/" element={<Navigate to={"/users"} replace />} />
-                        <Route path="/users" element={Users} />
-                        <Route path="/posts" element={Posts} />
-                    </Routes>
-                </Router>
+                <Routes>
+                    <Route path="/" element={<Navigate to={"/users"} replace />} />
+                    <Route path="/users" element={Users} />
+                    <Route path="/posts" element={Posts} />
+                </Routes>
             </div>
         );
     }
