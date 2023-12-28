@@ -21,9 +21,9 @@ class Home extends Component {
                     </div>
                 </nav>
                 <Routes>
-                    <Route path="/" element={<Navigate to={"/users"} replace />} />
-                    <Route path="/users" element={Users} />
-                    <Route path="/posts" element={Posts} />
+                    <Route path="/" element={<Navigate to="/users" replace/>}/>
+                    <Route path="/users" element={<Users/>} />
+                    <Route path="/posts" element={<Posts/>} />
                 </Routes>
             </div>
         );
