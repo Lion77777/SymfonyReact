@@ -42,13 +42,13 @@ class DefaultController extends AbstractController
                 'id' => 4,
                 'name' => 'Deann Payne',
                 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ...',
-                'imageURL' => 'https://randomuser.me/api/portraits/women/50.jpg',
+                'imageURL' => 'https://randomuser.me/api/portraits/women/51.jpg',
             ],
             [
                 'id' => 5,
-                'name' => 'Deann Payne',
+                'name' => 'Donald Perkins',
                 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ...',
-                'imageURL' => 'https://randomuser.me/api/portraits/women/89.jpg',
+                'imageURL' => 'https://randomuser.me/api/portraits/men/89.jpg',
             ],
         ];
 
